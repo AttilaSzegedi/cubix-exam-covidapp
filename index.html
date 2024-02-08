@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="bundle.js"></script>
+  </head>
+  <body>
+    <div class="header">
+        <h2>JavaScript Exam Covid App</h2>
+      </div>
+        <div class="searchbar">
+          <div class="form-container">
+            <form id="form" action="">
+               <div id="country" class="form-item">
+                  <input id="country-input" required type="text" placeholder="Countries">
+               </div>
+                <div class="spacer"></div>
+                <div id="search" class="form-item">
+                  <button type="reset">X</button>
+                  <button id="submit" type="submit">Show</button>
+                </div>
+            </form>
+          </div>
+        </div>
+    <div class="loader" id="loading-indicatior" style="display: none">Loading...</div>
+      <div id="error-massage" class="error-massage" style="display: none">
+        Error during the Loading Country Covid Data,<br> Please chack the selected Country from </br>
+        Hungary, France, Slovakia, Slovenia, Austria, Romania
+      </div>
+    <div class="content">
+      <div class="covid-container" id="cards-container"></div>
+
+    </div>
+  </body>
+</html>

@@ -1,2 +1,2 @@
 # cubix-exam-covidapp
- Cubix JavaScript Exam Covid App
+ Cubix JavaScript Exam Covid App Attila Szegedi
