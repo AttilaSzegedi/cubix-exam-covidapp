@@ -7,7 +7,7 @@
     <div class="header">
         <h2>JavaScript Exam Covid App</h2>
       </div>
-        <div class="searchbar">
+         <div class="searchbar">
           <div class="form-container">
             <form id="form" action="">
                <div id="country" class="form-item">
@@ -21,6 +21,7 @@
             </form>
           </div>
         </div>
+       
     <div class="loader" id="loading-indicatior" style="display: none">Loading...</div>
       <div id="error-massage" class="error-massage" style="display: none">
         Error during the Loading Country Covid Data,<br> Please chack the selected Country from </br>
@@ -30,5 +31,10 @@
       <div class="covid-container" id="cards-container"></div>
 
     </div>
+    <div class="chart-container" style="position: relative; height:30vh; ">
+      <div id="chart"><canvas id="confirmed" ></canvas></div>
+    </div>
+    </div>
+   
   </body>
 </html>

@@ -15,6 +15,7 @@
   "author": "Attila Szegedi",
   "license": "ISC",
   "devDependencies": {
+    "chart.js": "^4.4.1",
     "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^6.9.1",
     "sass": "^1.70.0",

@@ -10,6 +10,7 @@ export const addCard=(countrydata)=>{
               <div>Deaths number: ${countrydata.deaths} </div>
               <div>People Vaccinated number: ${countrydata.people_vaccinated} </div>
               <div>Vaccine Rate: ${countrydata.vaccinerate}  %</div>
+             
               <div>
                  <button id="delete-card">Delete</button>
               </div>

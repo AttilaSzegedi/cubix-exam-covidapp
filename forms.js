@@ -1,6 +1,7 @@
 import { loadData } from "./covid";
 import { addCard } from "./card";
 
+
 export const initForm = () => {
     
     const loadingIndicator=document.getElementById('loading-indicatior');
@@ -14,7 +15,7 @@ export const initForm = () => {
       submit.style.disable=true;
       e.preventDefault();
       loadingIndicator.style.display='block';
-      
+        
       try {
         const countrydata = await loadData(country);
         addCard(countrydata);
@@ -28,5 +29,7 @@ export const initForm = () => {
       loadingIndicator.style.display='none';
       submit.style.disable=false;
     });
-   
+    
+    
+    
 }

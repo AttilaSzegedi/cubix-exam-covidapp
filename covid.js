@@ -10,7 +10,7 @@ export const loadData = async (country) => {
         countrydata.population=countrydata.population.toLocaleString();
         countrydata.confirmed=countrydata.confirmed.toLocaleString();
         countrydata.deaths=countrydata.deaths.toLocaleString();
-
+        
         return countrydata;
     } catch (e) {
         console.error('Error loading Country data', e);
